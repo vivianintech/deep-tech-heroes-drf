@@ -71,7 +71,7 @@ MIDDLEWARE = [
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
 ]
 
-ROOT_URLCONF = 'groupProjectBackend.urls'
+ROOT_URLCONF = 'DTHBackend.urls'
 
 TEMPLATES = [
     {
@@ -89,7 +89,7 @@ TEMPLATES = [
     },
 ]
 
-WSGI_APPLICATION = 'groupProjectBackend.wsgi.application'
+WSGI_APPLICATION = 'DTHBackend.wsgi.application'
 
 DATABASES = {
     'default': {
